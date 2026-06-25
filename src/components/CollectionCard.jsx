@@ -40,7 +40,7 @@ const CollectionCard = ({ item }) => {
                 )}
             </a>
 
-            <div className="opacity-0 group-hover:opacity-100 flex flex-col justify-end gap-1 items-start w-full px-4 py-4 absolute bottom-0 text-white bg-gradient-to-t from-black/80 via-black/40 to-transparent transition-opacity duration-200 pointer-events-none z-20">
+            <div className="opacity-0 group-hover:opacity-100 flex flex-col justify-end gap-1 items-start w-full px-4 py-4 absolute bottom-0 text-white bg-linear-to-t from-black/80 via-black/40 to-transparent transition-opacity duration-200 pointer-events-none z-20">
                 <h2 className="text-sm font-medium capitalize truncate w-full">
                     {item.title || `Untitled ${item.type}`}
                 </h2>
