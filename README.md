@@ -94,6 +94,7 @@ src/
 │   ├── ResultCard.jsx        # Search result card
 │   ├── ResultGrid.jsx        # Grid layout for results
 │   ├── SearchBar.jsx         # Search input component
+|   ├── SideBar.jsx           # Side Bar component
 │   └── Tabs.jsx              # Tab navigation
 ├── pages/
 │   ├── HomePage.jsx          # Main search page
